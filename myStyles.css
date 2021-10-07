@@ -1,0 +1,123 @@
+h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+}
+header h1:hover {
+    color: red;
+
+}
+
+p {
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
+
+.body img {
+    right: 200;
+}
+
+header {
+    padding: 30px 0;
+    background-color: aquamarine;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    background-color: white;
+
+}
+
+h4 {
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    background-color: white;
+
+}
+
+footer h4:hover {
+    color: red;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: x-large;
+    background-color: white;
+    text-align: center;
+
+
+}
+body{
+    height: 600px;
+    background-image: url("Imagenes/imgKirolWeb.jpg");
+}
+.listado{
+background-color:white;
+}
+
+body li {
+
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+body li:hover{
+    color: red;
+
+}
+h6 {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    background-color: white;
+}
+html hr {
+    height:  20px;
+    background-color: aquamarine;
+}
+
+footer {
+
+    padding: 150px 0;
+}
+.rss{
+background-color: white;
+
+}
+
+body table{
+margin: 0 auto;
+}
+body th{
+background-color: aquamarine;
+
+}
+#logo{
+right: 200px;
+margin: 0 auto;
+}
+header img{
+margin: 0 auto;
+align-items: center;
+
+
+}
+
+
+h7 {
+    font-weight: bold;
+    font-size: large;
+}
+
+body ul{
+display: inline-block;
+}

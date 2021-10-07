@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!--En esta trozo pequeño de codigo se haya la cabecera de la pagina web, todas las ventanas tienen la misma cabecera-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KirolWeb.es</title>
+</head>
+<hr>
+<header>
+    <!--Se ha añadido un hipervínculo en el titulo de la web para situarse en la página de inicio a la hora de clickar
+    para la comodidad del usuario-->
+    <h1><a href="Inicio.html">KirolWeb</a><h1>
+    <link rel="stylesheet" href="myStyles.css">
+    <p>Tu tienda de deportes online favorita!</p>
+    <!--Se ha añadido el logo de la tienda en la cabecera de cada ventana-->
+    <img src="Imagenes/KirolWeb.png" alt="" width="200" height="200">
+    <br>
+    
+
+</header>
+<hr>
+
+<body>
+    <!--Tabla donde aparecera un usuario/consumidor en este caso, la tabla nos permitira acceder a los productos favoritos y a las
+    compras del propio consumidor. Cuantos más consumidores/clientes mas ventanas se deberían crear, pero como hay un maximo
+    de 4 ventanas, solo se ha añadido un cliente a la lista.-->
+    <div class="listado">
+        <h2>Listado de clientes/consumidores</h2>
+        <table border=""> 
+            <tr>
+                <th>Nombre</th>
+                <th>Link Favoritos</th>
+                <th>Link historial de compras</th>
+            </tr>
+            <br>
+            <tr>
+                <td>Xabier Garai</td>
+                <td><a href="Favoritos.html">Ver favoritos</a></td>
+                <td><a href="Compras.html">Ver compras</a></td>
+            </tr>
+
+        </table>
+
+        <link rel="stylesheet" type="text/css" href="myStyles.css">
+        <!--También se ha añadido otro metodo de busqueda de la lista de productos favoritos y compras, en este caso mediante un
+        "desplegable con las opciones mencionadas previamente"-->
+    <form action="Secciones" target="_blank">
+
+        <select name="Links" id="">
+            <option Selecciona tu link></option>
+            <option href="Compras.html" >Favoritos</option>
+            <option value="Compras.html">Compras</option>
+            <option value="Patrocinadores.html">Patrocinadores</option>
+
+        </select>
+        <!-- Boton que al seleccionar se abre un pop up con la pagina-->
+     <input type="button" value="Ir" onclick="window.open(formulario.facultades.value, this.target, 'resizable=1 ,left=80pt,top=80pt,width=1100px,height=800px'); return false;" target="popup">
+    </form>
+
+
+    </form>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <h7>En KirolWeb encontrarás todo tipo de productos y para todos los deportes!</h7>
+    <br>
+
+    <!--Se han añadido una lista de secciones para que el cliente sepa que tipo de productos vendemos en la web-->
+    <ul id="tab1"> 
+
+        <li>Camisetas</li>
+        <img src="Imagenes/camisetas.jpg" alt="" width="200" height="200"><br>
+        <li>Sudaderas</li>
+        <img src="Imagenes/sudaderas.jpg" alt="" width="200" height="200"><br>
+        <li>Chaquetas</li>
+        <img src="Imagenes/chaquetas.jpg" alt="" width="200" height="200"><br>
+        
+    </ul>
+    
+    <ul id="tab2">
+        <li>Pantalones</li>
+        <img src="Imagenes/pantalones.jpg" alt="" width="300" height="200"><br>
+        <li>Bañadores</li>
+        <img src="Imagenes/bañadores.jpg" alt="" width="300" height="200"><br>
+        <li>Calzado</li>
+        <img src="Imagenes/calzado.jpg" alt="" width="300" height="200"><br>
+        
+    </ul>
+
+
+</body>
+</div>
+    
+<footer>
+    
+        <div class="rss">
+            <!--Se ha añadido un link para enseñar a nuestros clientes los patrocinadores de la tienda, ellos son los que nos proveen
+            los productos-->
+            <h4><a href="Patrocinadores.html">Ver aqui los patrocinadores/marcas de nuestra tienda<a></h4> 
+
+            <!--Se ha añadido el número de teléfono de la web para la atención al cliente-->    
+            <address><a href="tel:+34999555666">Teléfono de contacto: 999555666</a></address>
+
+            <!--Al igual que las demas ventanas, la pagina web tendra su sección de RRSS el cual contiene imágenes de algunas redes sociales
+                que a la vez son hipervínculos a dichas redes sociales-->
+            <a href="https://www.facebook.com/"><img src="Imagenes/facebook.png" width="40" height="40" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="Imagenes/insta.jpg" width="40" height="40" alt="Instagram"></a>
+            <a href="https://twitter.com/home/"><img src="Imagenes/twitter.jpg" width="40" height="40" alt="twitter"></a>
+
+
+
+
+        </div>
+    
+
+</footer>
+
+</html>
